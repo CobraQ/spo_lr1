@@ -1,0 +1,11 @@
+//def test_func_second()
+//   {
+//        test = false;
+//   } until true;
+//end
+
+def get_all_elements_in_list_of_lists(list);
+    count = 0
+    for element in list_e;
+        count += len(element)
+    return count
