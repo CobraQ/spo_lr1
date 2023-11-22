@@ -1,0 +1,11 @@
+﻿def main()
+  x = 1;
+
+  while x < 8
+    x = x * 2;
+  end
+
+  y = 8;
+  y = y / 2;
+  until y == 0;
+end

@@ -1,0 +1,14 @@
+@startuml
+title function main()
+
+start
+:x = 1;
+while (x < 8?) is (Yes)
+:x = x * 2;
+endwhile (No)
+:y = 8;
+repeat
+:y = y / 2;
+repeat while (y == 0?) is (No) not (Yes)
+end
+@enduml
